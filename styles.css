@@ -380,9 +380,146 @@ body {
 }
 
 .person-text {
-    margin-left: 10px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    display: block;
-    line-height: 0.9;
+}
+
+.person-name {
+    margin-bottom: 0px;
+}
+
+.person-details {
+    margin-top: 0px;
+}
+
+/* House */
+
+.house {
+    margin-top: 200px;
+    padding-left: 160px;
+    display: flex;
+
+}
+
+.sub-header {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(98, 102, 135, 1);
+}
+
+.details-par {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(27, 28, 87, 1);
+}
+
+.detail {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(60, 69, 99, 1);
+}
+
+.details-matrix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.detail-container {
+    display: flex;
+    align-items: center;
+}
+
+.detail {
+    padding-left: 5px;
+}
+
+.contact-btn {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: right;
+
+    color: rgba(255, 255, 255, 1);
+    background: rgba(16, 185, 129, 1);
+
+    width: 163px;
+    height: 48px;
+    border-radius: 32px;
+    gap: 16px;
+    border: 1px;
+
+    padding-right: 15px;
+}
+
+.contact-container {
+    margin-left: 50px;
+}
+
+.person-text-contact {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-container {
+    margin-left: 300px;
+    margin-top: -60px;
+}
+
+.video {
+    margin-left: 250px;
+    width: 60%;
+}
+
+.video-col {
+    position: relative;
+}
+.overlay-images {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.overlay-img {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.vase-img {
+    margin-top: 100px;
+    height: 100px;
+}
+
+.chair-img {
+    margin-top: 100px;
+    height: 100px;
+}
+
+.phone-img {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
 }
