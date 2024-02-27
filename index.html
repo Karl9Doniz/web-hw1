@@ -5,38 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <!-- <img class="background-img" src="images/Img.png" alt="Background" width="35%"> -->
     <header class="header">
+        <div class="logo-link">
+            <img class="logo-img" src="icons/logo-2.png" alt="Icon" width="25%">
+            <a class="header-link" href="#">Hounter</a>
+        </div>
         <nav class="header-nav">
-                <img class="logo-img" src="icons/logo-2.png" alt="Icon" width="2%">
-                <a class="header-link" href="#"><b>Hounter</b></a>
-                <a class="header-link" href="#"><button>About Us</button></a>
-                <a class="header-link" href="#"><button>Article</button></a>
-                <select class="property-select">
-                    <option class="property-option">Property</option>
-                </select>
-                <a class="header-link" href="#"><button>Sign Up!</button></a>
+                <button class="about-us-btn">About Us</button>
+                <button class="article-btn">Article</button>
+                <img class="property-arrow" src="icons/arrow_down.png" alt="Icon">
+                <button class="property-select">Property</button>
+                <button class="sign-up-btn">Sign Up!</button>
         </nav>
     </header>
 
     <main class="main">
         <section class="banner">
             <h2 class="banner-header">
-                Find The Place To Live Your Dreams Easily here
+                Find The Place To<br>Live Your Dreams <br>Easily here
             </h2>
-            <img class="background-img" src="images/Img.png" alt="Background" width="35%">
-            <h5 class="sub-banner">Everything you need about finding your place to live will be here,
+
+            <h5 class="sub-banner">Everything you need about finding your place to live will be here,<br>
                                 where it will be easier for you
             </h5>
-            <input type="text" placeholder="Search for the location you want!">
-            <button type="submit" class="search-button">Search</button>
+            <div class="search-container">
+                <input type="text" placeholder="Search for the location you want!" class="search-input">
+                <button type="submit" class="search-button">Search</button>
+                <img class="search-arrow" src="icons/arrow_right.png" alt="Icon">
+                <img class="search-img" src="icons/Vector-2.png" alt="Icon" width="3%">
+            </div>
             <p class="banner-text">Our Partnership</p>
-            <img src="image1.jpg" alt="Image 1" width="30" height="30" class="sponsor">
-            <img src="image2.jpg" alt="Image 2" width="30" height="30" class="sponsor">
-            <img src="image3.jpg" alt="Image 3" width="30" height="30" class="sponsor">
-            <img src="image4.jpg" alt="Image 4" width="30" height="30" class="sponsor">
+            <div class="partners">
+                <img src="icons/traveloka_logo 2.png" alt="Image 1" class="sponsor">
+                <img src="icons/traveloka_logo 3.png" alt="Image 2" class="sponsor">
+                <img src="icons/traveloka_logo 4.png" alt="Image 3" class="sponsor">
+                <img src="icons/traveloka_logo 5.png" alt="Image 4" class="sponsor">
+            </div>
         </section>
         <section class="featured">
             <h3 class="section-header">Featured House</h3>
