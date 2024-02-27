@@ -523,3 +523,56 @@ body {
     margin-left: 30px;
     margin-top: 15px;
 }
+
+/* Reviews */
+
+.reviews {
+    margin-top: 200px;
+    padding-left: 160px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header-rev {
+    font-family: Lexend;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: rgba(27, 28, 87, 1);
+
+    text-align: center;
+}
+
+.review-container {
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+}
+
+.property-img {
+    object-fit: cover;
+}
+
+.text-block {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    width: 612px;
+    height: 249px;
+    border-radius: 16px;
+
+    bottom: 60px;
+}
+
+.person-review {
+    display: flex;
+    justify-content: space-between;
+
+}
