@@ -221,4 +221,168 @@ body {
 
 .featured {
     margin-top: 200px;
+    padding-left: 120px;
+}
+
+.featured-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    margin-left: 40px;
+}
+
+.section-header {
+    font-family: Lexend;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #1B1C57;
+}
+
+.house-btn, .villa-btn, .apartment-btn {
+    width: 135px;
+    height: 52px;
+    padding-left: 35px;
+    border-radius: 32px;
+    gap: 8px;
+
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    border: 1px
+
+}
+
+.button-group {
+    display: flex;
+    gap: 30px;
+}
+
+.house-btn {
+    background: rgba(209, 250, 229, 1);
+    color: rgba(16, 185, 129, 1);
+}
+
+.house-img {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.villa-img {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 12px;
+}
+
+.apartment-img {
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 12px;
+}
+
+.arrow-left-btn, .arrow-right-btn {
+    width: 60px;
+    height: 52px;
+    padding: 12px, 16px, 12px, 16px;
+    border-radius: 32px;
+
+    border: 1px;
+
+}
+
+.arrow-right-btn {
+    background: rgba(16, 185, 129, 1);
+    margin-left: 15px;
+}
+
+.arrow_left_img {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.arrow_right_img {
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+.property-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-left: 80px;
+}
+
+.property-name {
+    font-family: Lexend;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(14, 23, 53, 1);
+
+}
+
+.property-price {
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(60, 69, 99, 1);
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+}
+
+/* .person-img {
+    margin-right: 0px;
+} */
+
+.person-name {
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(14, 23, 53, 1);
+}
+
+.person-details {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(136, 139, 151, 1);
+
+}
+
+.person-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    line-height: 0.9;
 }
